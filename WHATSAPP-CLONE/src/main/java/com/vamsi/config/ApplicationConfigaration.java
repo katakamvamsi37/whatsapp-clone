@@ -44,7 +44,7 @@ public class ApplicationConfigaration {
             @Override
             public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                 CorsConfiguration config = new CorsConfiguration();
-                config.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));
+                config.setAllowedOrigins(Collections.singletonList("http://localhost:3000,https://famous-hotteok-34fed3.netlify.app/"));
                 config.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE","OPTIONS"));
                 config.setAllowCredentials(true);
                 config.setAllowedHeaders(Collections.singletonList("*"));
