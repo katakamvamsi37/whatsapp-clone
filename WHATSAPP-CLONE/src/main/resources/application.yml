@@ -7,9 +7,9 @@ spring:
   application:
      name: WHATSAPP-CLONE
   datasource:
-    username: root
-    password: kgfyash@1234
-    url: jdbc:mysql://localhost:3306/whatsapp_clone
+    username: admin
+    password: Vamsi868876
+    url: jdbc:mysql://database-2.cncquc2eufgv.eu-north-1.rds.amazonaws.com:3306/whatsapp_clone
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
