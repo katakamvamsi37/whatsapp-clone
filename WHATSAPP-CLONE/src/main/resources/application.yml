@@ -14,6 +14,7 @@ spring:
   jpa:
     show-sql: true
     hibernate:
+			dialect: org.hibernate.dialect.MySQLDialect 
       ddl-auto: update
       format_sql: true
     open-in-view: false
